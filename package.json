@@ -6,10 +6,13 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint --fix",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commit": "git add . && cz"
   },
   "dependencies": {
-    "vue": "^3.0.0"
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.13",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
