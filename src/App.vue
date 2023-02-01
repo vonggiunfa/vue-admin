@@ -3,6 +3,7 @@
     <router-link to="/login">login</router-link>
     <router-link to="/main">main</router-link>
     <router-view></router-view>
+    <el-button type="primary">hahah</el-button>
   </div>
 </template>
 
