@@ -1,4 +1,3 @@
-import { TOKEN } from "@/constants";
 import md5 from "js-md5";
 
 const timestamp = Date.now();
